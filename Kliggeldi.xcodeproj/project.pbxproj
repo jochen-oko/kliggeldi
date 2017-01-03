@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7E507051C0791EC00A64B01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E507041C0791EC00A64B01 /* AppDelegate.swift */; };
+		E7E507071C0791EC00A64B01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E507061C0791EC00A64B01 /* ViewController.swift */; };
+		E7E5070A1C0791EC00A64B01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E507081C0791EC00A64B01 /* Main.storyboard */; };
+		E7E5070C1C0791EC00A64B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E5070B1C0791EC00A64B01 /* Assets.xcassets */; };
+		E7E5070F1C0791EC00A64B01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E5070D1C0791EC00A64B01 /* LaunchScreen.storyboard */; };
+		E7E507141C0791EC00A64B01 /* Kliggeldi WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E7E507131C0791EC00A64B01 /* Kliggeldi WatchKit App.app */; };
+		E7E5071A1C0791EC00A64B01 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E507181C0791EC00A64B01 /* Interface.storyboard */; };
+		E7E5071C1C0791EC00A64B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E5071B1C0791EC00A64B01 /* Assets.xcassets */; };
+		E7E507231C0791EC00A64B01 /* Kliggeldi WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E7E507221C0791EC00A64B01 /* Kliggeldi WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E7E507281C0791EC00A64B01 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E507271C0791EC00A64B01 /* InterfaceController.swift */; };
+		E7E5072A1C0791EC00A64B01 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E507291C0791EC00A64B01 /* ExtensionDelegate.swift */; };
+		E7E5072C1C0791EC00A64B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E5072B1C0791EC00A64B01 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7E507151C0791EC00A64B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7E506F91C0791EB00A64B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7E507121C0791EC00A64B01;
+			remoteInfo = "Kliggeldi WatchKit App";
+		};
+		E7E507241C0791EC00A64B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7E506F91C0791EB00A64B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7E507211C0791EC00A64B01;
+			remoteInfo = "Kliggeldi WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E7E507331C0791EC00A64B01 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E7E507231C0791EC00A64B01 /* Kliggeldi WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7E507371C0791EC00A64B01 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E7E507141C0791EC00A64B01 /* Kliggeldi WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E7E507011C0791EC00A64B01 /* Kliggeldi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kliggeldi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7E507041C0791EC00A64B01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7E507061C0791EC00A64B01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7E507091C0791EC00A64B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7E5070B1C0791EC00A64B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7E5070E1C0791EC00A64B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7E507101C0791EC00A64B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7E507131C0791EC00A64B01 /* Kliggeldi WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kliggeldi WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7E507191C0791EC00A64B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		E7E5071B1C0791EC00A64B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7E5071D1C0791EC00A64B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7E507221C0791EC00A64B01 /* Kliggeldi WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Kliggeldi WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7E507271C0791EC00A64B01 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		E7E507291C0791EC00A64B01 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		E7E5072B1C0791EC00A64B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7E5072D1C0791EC00A64B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7E506FE1C0791EC00A64B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7E5071F1C0791EC00A64B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7E506F81C0791EB00A64B01 = {
+			isa = PBXGroup;
+			children = (
+				E7E507031C0791EC00A64B01 /* Kliggeldi */,
+				E7E507171C0791EC00A64B01 /* Kliggeldi WatchKit App */,
+				E7E507261C0791EC00A64B01 /* Kliggeldi WatchKit Extension */,
+				E7E507021C0791EC00A64B01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7E507021C0791EC00A64B01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7E507011C0791EC00A64B01 /* Kliggeldi.app */,
+				E7E507131C0791EC00A64B01 /* Kliggeldi WatchKit App.app */,
+				E7E507221C0791EC00A64B01 /* Kliggeldi WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7E507031C0791EC00A64B01 /* Kliggeldi */ = {
+			isa = PBXGroup;
+			children = (
+				E7E507041C0791EC00A64B01 /* AppDelegate.swift */,
+				E7E507061C0791EC00A64B01 /* ViewController.swift */,
+				E7E507081C0791EC00A64B01 /* Main.storyboard */,
+				E7E5070B1C0791EC00A64B01 /* Assets.xcassets */,
+				E7E5070D1C0791EC00A64B01 /* LaunchScreen.storyboard */,
+				E7E507101C0791EC00A64B01 /* Info.plist */,
+			);
+			path = Kliggeldi;
+			sourceTree = "<group>";
+		};
+		E7E507171C0791EC00A64B01 /* Kliggeldi WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				E7E507181C0791EC00A64B01 /* Interface.storyboard */,
+				E7E5071B1C0791EC00A64B01 /* Assets.xcassets */,
+				E7E5071D1C0791EC00A64B01 /* Info.plist */,
+			);
+			path = "Kliggeldi WatchKit App";
+			sourceTree = "<group>";
+		};
+		E7E507261C0791EC00A64B01 /* Kliggeldi WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E7E507271C0791EC00A64B01 /* InterfaceController.swift */,
+				E7E507291C0791EC00A64B01 /* ExtensionDelegate.swift */,
+				E7E5072B1C0791EC00A64B01 /* Assets.xcassets */,
+				E7E5072D1C0791EC00A64B01 /* Info.plist */,
+			);
+			path = "Kliggeldi WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7E507001C0791EC00A64B01 /* Kliggeldi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7E507381C0791EC00A64B01 /* Build configuration list for PBXNativeTarget "Kliggeldi" */;
+			buildPhases = (
+				E7E506FD1C0791EC00A64B01 /* Sources */,
+				E7E506FE1C0791EC00A64B01 /* Frameworks */,
+				E7E506FF1C0791EC00A64B01 /* Resources */,
+				E7E507371C0791EC00A64B01 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7E507161C0791EC00A64B01 /* PBXTargetDependency */,
+			);
+			name = Kliggeldi;
+			productName = Kliggeldi;
+			productReference = E7E507011C0791EC00A64B01 /* Kliggeldi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7E507121C0791EC00A64B01 /* Kliggeldi WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7E507341C0791EC00A64B01 /* Build configuration list for PBXNativeTarget "Kliggeldi WatchKit App" */;
+			buildPhases = (
+				E7E507111C0791EC00A64B01 /* Resources */,
+				E7E507331C0791EC00A64B01 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7E507251C0791EC00A64B01 /* PBXTargetDependency */,
+			);
+			name = "Kliggeldi WatchKit App";
+			productName = "Kliggeldi WatchKit App";
+			productReference = E7E507131C0791EC00A64B01 /* Kliggeldi WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		E7E507211C0791EC00A64B01 /* Kliggeldi WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7E507301C0791EC00A64B01 /* Build configuration list for PBXNativeTarget "Kliggeldi WatchKit Extension" */;
+			buildPhases = (
+				E7E5071E1C0791EC00A64B01 /* Sources */,
+				E7E5071F1C0791EC00A64B01 /* Frameworks */,
+				E7E507201C0791EC00A64B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kliggeldi WatchKit Extension";
+			productName = "Kliggeldi WatchKit Extension";
+			productReference = E7E507221C0791EC00A64B01 /* Kliggeldi WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7E506F91C0791EB00A64B01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Joko;
+				TargetAttributes = {
+					E7E507001C0791EC00A64B01 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					E7E507121C0791EC00A64B01 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					E7E507211C0791EC00A64B01 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = E7E506FC1C0791EB00A64B01 /* Build configuration list for PBXProject "Kliggeldi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7E506F81C0791EB00A64B01;
+			productRefGroup = E7E507021C0791EC00A64B01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7E507001C0791EC00A64B01 /* Kliggeldi */,
+				E7E507121C0791EC00A64B01 /* Kliggeldi WatchKit App */,
+				E7E507211C0791EC00A64B01 /* Kliggeldi WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7E506FF1C0791EC00A64B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E5070F1C0791EC00A64B01 /* LaunchScreen.storyboard in Resources */,
+				E7E5070C1C0791EC00A64B01 /* Assets.xcassets in Resources */,
+				E7E5070A1C0791EC00A64B01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7E507111C0791EC00A64B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E5071C1C0791EC00A64B01 /* Assets.xcassets in Resources */,
+				E7E5071A1C0791EC00A64B01 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7E507201C0791EC00A64B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E5072C1C0791EC00A64B01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7E506FD1C0791EC00A64B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E507071C0791EC00A64B01 /* ViewController.swift in Sources */,
+				E7E507051C0791EC00A64B01 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7E5071E1C0791EC00A64B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E5072A1C0791EC00A64B01 /* ExtensionDelegate.swift in Sources */,
+				E7E507281C0791EC00A64B01 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7E507161C0791EC00A64B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7E507121C0791EC00A64B01 /* Kliggeldi WatchKit App */;
+			targetProxy = E7E507151C0791EC00A64B01 /* PBXContainerItemProxy */;
+		};
+		E7E507251C0791EC00A64B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7E507211C0791EC00A64B01 /* Kliggeldi WatchKit Extension */;
+			targetProxy = E7E507241C0791EC00A64B01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7E507081C0791EC00A64B01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7E507091C0791EC00A64B01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7E5070D1C0791EC00A64B01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7E5070E1C0791EC00A64B01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E7E507181C0791EC00A64B01 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7E507191C0791EC00A64B01 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7E5072E1C0791EC00A64B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7E5072F1C0791EC00A64B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7E507311C0791EC00A64B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Kliggeldi WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joko.Kliggeldi.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		E7E507321C0791EC00A64B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Kliggeldi WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joko.Kliggeldi.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		E7E507351C0791EC00A64B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Kliggeldi_WatchKit_Extension;
+				INFOPLIST_FILE = "Kliggeldi WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = joko.Kliggeldi.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		E7E507361C0791EC00A64B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Kliggeldi_WatchKit_Extension;
+				INFOPLIST_FILE = "Kliggeldi WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = joko.Kliggeldi.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		E7E507391C0791EC00A64B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kliggeldi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joko.Kliggeldi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E7E5073A1C0791EC00A64B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kliggeldi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joko.Kliggeldi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7E506FC1C0791EB00A64B01 /* Build configuration list for PBXProject "Kliggeldi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7E5072E1C0791EC00A64B01 /* Debug */,
+				E7E5072F1C0791EC00A64B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7E507301C0791EC00A64B01 /* Build configuration list for PBXNativeTarget "Kliggeldi WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7E507311C0791EC00A64B01 /* Debug */,
+				E7E507321C0791EC00A64B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E7E507341C0791EC00A64B01 /* Build configuration list for PBXNativeTarget "Kliggeldi WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7E507351C0791EC00A64B01 /* Debug */,
+				E7E507361C0791EC00A64B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E7E507381C0791EC00A64B01 /* Build configuration list for PBXNativeTarget "Kliggeldi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7E507391C0791EC00A64B01 /* Debug */,
+				E7E5073A1C0791EC00A64B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7E506F91C0791EB00A64B01 /* Project object */;
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Kliggeldi_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="47" alignment="left" id="Axi-46-auQ">
+                            <items>
+                                <button width="65" height="55" alignment="left" id="Xd7-fS-coe">
+                                    <color key="backgroundColor" red="0.17397486110726276" green="0.81616950757575757" blue="0.16612288596393662" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="buttonGreenClicked" destination="AgC-eL-Hgc" id="qlK-SV-AJI"/>
+                                    </connections>
+                                </button>
+                                <button width="65" height="55" alignment="right" id="duv-jA-bcQ">
+                                    <color key="backgroundColor" red="0.89366319444444442" green="0.0177128477373436" blue="0.030907183696810399" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="buttonRedClicked" destination="AgC-eL-Hgc" id="3Ov-Rr-MbL"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="46" alignment="left" id="Zrp-7n-jhs">
+                            <items>
+                                <button width="65" height="55" alignment="left" verticalAlignment="bottom" id="GWu-3V-UGJ">
+                                    <color key="backgroundColor" red="0.89366319444444442" green="0.77166402141076396" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="buttonYellowClicked" destination="AgC-eL-Hgc" id="4BD-76-2Iq"/>
+                                    </connections>
+                                </button>
+                                <button width="65" height="55" alignment="right" verticalAlignment="bottom" id="afZ-Ss-kj4">
+                                    <color key="backgroundColor" red="0.0" green="0.24237679985023697" blue="0.89366319444444442" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="buttonBlueClicked" destination="AgC-eL-Hgc" id="mPc-Xd-9bL"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="46" alignment="left" id="z63-m3-ig5">
+                            <items>
+                                <label width="75" height="19" alignment="left" verticalAlignment="bottom" text="Lvl 0" id="m7r-1c-wvC"/>
+                                <button width="41" height="31" alignment="right" verticalAlignment="bottom" title="Go" id="1em-KB-1Xb">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.16890895956920662" green="0.48684106691919193" blue="0.21701730463907776" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="go" destination="AgC-eL-Hgc" id="Ho8-jE-48K"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="buttonBlue" destination="afZ-Ss-kj4" id="HdA-2E-Pwm"/>
+                        <outlet property="buttonGreen" destination="Xd7-fS-coe" id="bbO-uy-mLH"/>
+                        <outlet property="buttonRed" destination="duv-jA-bcQ" id="teQ-vY-D71"/>
+                        <outlet property="buttonYellow" destination="GWu-3V-UGJ" id="6eh-5c-5je"/>
+                        <outlet property="levelCount" destination="m7r-1c-wvC" id="j6t-cB-JH3"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="305" y="401"/>
+        </scene>
+    </scenes>
+</document>
